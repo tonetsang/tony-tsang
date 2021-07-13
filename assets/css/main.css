@@ -1517,6 +1517,10 @@ input, select, textarea {
 		color: #999;
 	}
 
+	.none {
+		display: none;
+	}
+
 /* Section/Article */
 
 	section, article {
