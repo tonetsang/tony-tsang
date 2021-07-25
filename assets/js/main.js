@@ -1,9 +1,8 @@
-window.onload = function() { 
-	var el = document.getElementById('g-recaptcha-response'); 
-	if (el) { 
-	  el.setAttribute('required', 'required'); 
-	} 
-  }
+/*
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 (function($) {
 
@@ -211,3 +210,10 @@ window.onload = function() {
 		}
 
 })(jQuery);
+
+window.onload = function() { 
+	var el = document.getElementById('g-recaptcha-response'); 
+	if (el) { 
+	  el.setAttribute('required', 'required'); 
+	} 
+  }
