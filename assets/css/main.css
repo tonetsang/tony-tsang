@@ -1521,6 +1521,14 @@ input, select, textarea {
 		display: none;
 	}
 
+	#g-recaptcha-response {
+		display: block !important;
+		position: absolute;
+		margin: -50px 0 0 0 !important;
+		z-index: -999999;
+		opacity: 0;
+		}
+
 /* Section/Article */
 
 	section, article {
